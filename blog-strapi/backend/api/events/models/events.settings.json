@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "events",
+  "info": {
+    "name": "events"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Event": {
+      "type": "component",
+      "repeatable": true,
+      "component": "event.event"
+    }
+  }
+}
